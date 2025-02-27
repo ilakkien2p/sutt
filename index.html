@@ -1,0 +1,30 @@
+<html>
+    <head> 
+    
+    <title>hugltf modelsss</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
+
+</head>
+<body>
+    <a-scene background="color:white">
+        <a-assets>
+            <a-asset-item id="labratron" src="assets/scientific_lab/scene.gltf" ></a-asset-item>
+            <a-asset-item id="bonydrony1" src="assets/scifi_drone_1.1/scene.gltf" ></a-asset-item>
+            <a-asset-item id="minidrony1" src="assets/s9_mini_drone/scene.gltf" ></a-asset-item>
+            <a-asset-item id="busterbonydrony1" src="assets/buster_drone/scene.gltf" ></a-asset-item>
+        </a-assets>
+
+
+        <a-entity gltf-model="#labratron" animation-mixer scale="3 3 3" position="0 -6 0" ></a-entity>
+        <a-entity gltf-model="#bonydrony1" animation-mixer position="-35 4 15" scale="0.03 0.03 0.03"></a-entity>
+        <a-entity gltf-model="#busterbonydrony1" animation-mixer position="-45 4 15" scale="4 4 4"></a-entity>
+        <a-entity gltf-model="#minidrony1" animation-mixer position="-55 4 15"></a-entity>
+     
+
+
+    </a-scene>
+</body>
+<footer></footer>
+</html> 
